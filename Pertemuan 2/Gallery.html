@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gallery</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0097a7;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .navbar {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 15px 0;
+            text-align: center;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 25px;
+            margin: 0 10px;
+            font-size: 16px;
+            display: inline-block;
+        }
+
+        .navbar a:hover {
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 5px;
+        }
+
+        .gallery-container {
+            background: rgba(128, 128, 128, 0.7);
+            width: 100%;
+            max-width: 1200px;
+            border-radius: 10px;
+            padding: 40px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            color: white;
+            font-size: 48px;
+            font-weight: normal;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .images-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-bottom: 40px;
+            padding-bottom: 40px;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .image-box {
+            background: white;
+            padding: 8px;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .image-box img {
+            display: block;
+            width: 150px;
+            height: 100px;
+            object-fit: cover;
+        }
+
+        footer {
+            text-align: center;
+            color: white;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a href = "home.html">Home</a>
+        <a href="profile.html">Profile</a>
+        <a href = "Gallery.html">Gallery</a>
+        <a href = "contact.html">Contact</a>
+        <a href="Tugas.html">Tugas</a>
+    </nav>
+    
+    <div class="gallery-container">
+        <h1>Gallery</h1>
+        
+        <div class="images-container">
+            <div class="image-box">
+                <img src="image/Orange Dahlia.jpeg" alt="Orange Dahlia">
+            </div>
+            
+            <div class="image-box">
+                <img src="image/mesa.jpeg">
+            </div>
+            
+            <div class="image-box">
+                <img src="image/Ocean.jpeg">
+            </div>
+            
+            <div class="image-box">
+                <img src="image/Sunset.jpeg">
+            </div>
+            
+            <div class="image-box">
+                <img src="image/Red Flower.jpeg">
+            </div>
+            
+            <div class="image-box">
+                <img src="image/Koala.jpeg">
+            </div>
+        </div>
+        
+        <footer>Copyright © 2026</footer>
+    </div>
+</body>
+</html>
